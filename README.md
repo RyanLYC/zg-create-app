@@ -1,6 +1,5 @@
 # zg-create-app 根据create-vite 源码做template文件夹处理
 
-## Scaffolding Your First Project
 
 ```bash
 $ npx zg-create-app projectName
