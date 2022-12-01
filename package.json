@@ -1,0 +1,33 @@
+{
+  "name": "zg-create-app",
+  "version": "0.0.1",
+  "author": "lyc",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "zg-create-app": "index.js",
+    "zca": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template",
+    "dist"
+  ],
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^18.11.9",
+    "@types/prompts": "^2.4.1",
+    "cross-spawn": "^7.0.3",
+    "kolorist": "^1.6.0",
+    "minimist": "^1.2.7",
+    "prompts": "^2.4.2",
+    "typescript": "^4.9.3",
+    "unbuild": "^1.0.1"
+  }
+}
