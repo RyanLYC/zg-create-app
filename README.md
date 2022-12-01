@@ -1,5 +1,5 @@
-# zg-create-app 根据create-vite 源码做template文件夹处理
-
+# 根据create-vite的源码改写的
+* 根据文件夹有的template进行选择ts or js
 
 ```bash
 $ npx zg-create-app projectName
